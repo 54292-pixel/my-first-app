@@ -105,11 +105,11 @@ st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
-ans1 = st.text_input(
+ans3 = st.text_input(
     "ข้อ 3: A Monkey usually eats a `b _ _ _ n a`. 🍌 ",
     value=st.session_state.ans3_val,
 )
-ans2 = st.text_input(
+ans4 = st.text_input(
     "ข้อ 4: A `l _ _ _ o n` is very sour. 🍋 ",
     value=st.session_state.ans4_val,
 )
