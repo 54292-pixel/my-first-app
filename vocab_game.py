@@ -52,7 +52,6 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
-
 if u_ans3 == "banana":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
@@ -68,7 +67,7 @@ else:
 
 st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
-if score == 2:
+if score == 4:
         st.success("🎉 You win!")
 else:
         st.error("💀 You lose!")
